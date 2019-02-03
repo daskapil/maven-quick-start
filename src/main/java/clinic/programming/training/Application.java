@@ -11,7 +11,7 @@ public class Application {
         System.out.println ("Inside Application");
     }
 	
-	private int countWords(String words) {
+	public int countWords(String words) {
 		String[] separatedWords = StringUtils.split(words, " ");
 		return (separatedWords == null) ? 0: separatedWords.length;
 	}
